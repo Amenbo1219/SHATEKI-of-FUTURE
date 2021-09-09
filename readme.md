@@ -22,23 +22,43 @@
  
 "未来の射的（SHATEKI of FUTURE）"を動かすのに必要なライブラリなどを列挙する
  
-* Python-3.7.19 or than later
-* tkinter-8.6.9
-* Pillow-8.3.2
- 
+* Python-3.7.19 or than later<br>
+* tkinter-8.6.9<br>
+* Pillow-8.3.2<br>
+
+
 # Installation
  
-Requirementで列挙したライブラリなどのインストール方法を説明する
- 
+Requirementで列挙したライブラリなどのインストール方法を説明する<br>
+Anacondaの仮想環境の作成を推奨します。
+```bash
+conda create -n sof python=3.7.10 -y
+conda activate sof
+```
+git がインストールされている場合
+```bash
+git clone https://github.com/Amenbo1219/SHATEKI-of-FUTURE.git
+cd SHATEKI-of-FUTURE
+```
+gitがインストールされていない場合<br>
+こちらからソースコードをダウンロードしてください。<br>
+github:(https://github.com/Amenbo1219/SHATEKI-of-FUTURE)<br>
+利用プラグインのインストール
+```bash
+cd Instration
+pip install -r requirements.txt
+cd ..
+``` 
+or
 ```bash
 pip install Pillow
 ```
-or
-```bash
-pip install -r requirements.txt
-```
+
+
  
 # Usage
+
+* Python3.7.10以上がインストールされているものとする。
 * main.py,crab.jpeg,cannon.jpegをフォルダ内部に配置する。
 ![ファイル配置図](./data/folderlist.svg "folderlist")
 
