@@ -1,0 +1,159 @@
+<mxfile host="65bd71144e">
+    <diagram id="1BFNxij-UugImOqHo-o5" name="全体の流れ">
+        <mxGraphModel dx="816" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FP3aiXalHrT-c-49djk0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="360" y="40"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="10" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="射的ゲーム&lt;br&gt;フローチャート" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="30" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="じゅんぺい" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="200" width="140" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="ソースコードの解析&#10;もう一度Playを行う&#10;readme.mdの作成" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5" vertex="1">
+                    <mxGeometry y="26" width="140" height="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="こうき" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="200" width="140" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="背景を探す" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9" vertex="1">
+                    <mxGeometry y="26" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="背景を設置する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9" vertex="1">
+                    <mxGeometry y="52" width="140" height="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="かいと" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="200" width="140" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="スコアボード" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="13" vertex="1">
+                    <mxGeometry y="26" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="敵・味方&#10;敵の大きさと色の変更" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="13" vertex="1">
+                    <mxGeometry y="52" width="140" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="ゲーム詳細" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="20" width="140" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="ネットで配布されていた&#10;インベーダゲームを改変" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="17" vertex="1">
+                    <mxGeometry y="26" width="140" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="スコアボードの表示" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="17" vertex="1">
+                    <mxGeometry y="70" width="140" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="敵によってポイント&#10;や大きさが変わる&#10;Clearが邪魔" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" parent="17" vertex="1">
+                    <mxGeometry y="108" width="140" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="54ulHB1BEFGa01dlv_zY-21" value="コンセプト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="70" width="140" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="54ulHB1BEFGa01dlv_zY-22" value="未来の射的" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="54ulHB1BEFGa01dlv_zY-21" vertex="1">
+                    <mxGeometry y="26" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="54ulHB1BEFGa01dlv_zY-23" value="イラスト系の画像" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="54ulHB1BEFGa01dlv_zY-21" vertex="1">
+                    <mxGeometry y="52" width="140" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="nb0Z1D5cu_LUDyA4VcVh" name="ソースコード解析">
+        <mxGraphModel dx="816" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="cZl2IO72aTPLviYQva8M-0"/>
+                <mxCell id="cZl2IO72aTPLviYQva8M-1" parent="cZl2IO72aTPLviYQva8M-0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="vp1230Xp0cBt-LgG_j7J" name="スコアボード">
+        <mxGraphModel dx="1204" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="ZKL9dCVBdugknJEmJNUz-0"/>
+                <mxCell id="ZKL9dCVBdugknJEmJNUz-1" parent="ZKL9dCVBdugknJEmJNUz-0"/>
+                <mxCell id="gilK_g97IdA7xEXjarIq-5" value="ポイントの加算" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="ZKL9dCVBdugknJEmJNUz-1" vertex="1">
+                    <mxGeometry x="260" y="150" width="140" height="96" as="geometry"/>
+                </mxCell>
+                <mxCell id="gilK_g97IdA7xEXjarIq-6" value="自分のスコアにポイント&#10;を加算する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gilK_g97IdA7xEXjarIq-5" vertex="1">
+                    <mxGeometry y="26" width="140" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="gilK_g97IdA7xEXjarIq-8" value="返り値なし" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gilK_g97IdA7xEXjarIq-5" vertex="1">
+                    <mxGeometry y="70" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-0" value="敵の分別" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="ZKL9dCVBdugknJEmJNUz-1" vertex="1">
+                    <mxGeometry x="30" y="150" width="190" height="104" as="geometry">
+                        <mxRectangle x="30" y="150" width="290" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-1" value="ポイントの読み取り" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lj0MUGp1D2PCZsePjITL-0" vertex="1">
+                    <mxGeometry y="26" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-2" value="他メソッドの呼び出し" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lj0MUGp1D2PCZsePjITL-0" vertex="1">
+                    <mxGeometry y="52" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-3" value="返り値なし" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lj0MUGp1D2PCZsePjITL-0" vertex="1">
+                    <mxGeometry y="78" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ZKL9dCVBdugknJEmJNUz-1" source="Lj0MUGp1D2PCZsePjITL-1" target="gilK_g97IdA7xEXjarIq-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;def __init__&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ZKL9dCVBdugknJEmJNUz-1" vertex="1">
+                    <mxGeometry x="30" y="100" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-7" value="&lt;font style=&quot;font-size: 17px&quot;&gt;def&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(220 , 220 , 170) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px&quot;&gt;sum_scores&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ZKL9dCVBdugknJEmJNUz-1" vertex="1">
+                    <mxGeometry x="230" y="100" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-9" value="スコアを表示する" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="ZKL9dCVBdugknJEmJNUz-1" vertex="1">
+                    <mxGeometry x="450" y="147" width="160" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-10" value="合計のスコアが引数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lj0MUGp1D2PCZsePjITL-9" vertex="1">
+                    <mxGeometry y="26" width="160" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-11" value="引数を画面右上に表示する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lj0MUGp1D2PCZsePjITL-9" vertex="1">
+                    <mxGeometry y="50" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-12" value="返り値はなし！！" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Lj0MUGp1D2PCZsePjITL-9" vertex="1">
+                    <mxGeometry y="76" width="160" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-13" value="&lt;font style=&quot;font-size: 17px&quot;&gt;def show_scores&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ZKL9dCVBdugknJEmJNUz-1" vertex="1">
+                    <mxGeometry x="440" y="100" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="Lj0MUGp1D2PCZsePjITL-15" value="&lt;h1&gt;Class scoreboards&lt;/h1&gt;&lt;p&gt;このクラスではスコアボードの敵の撃破を受けてスコアボードに表示するまでの流れを表記する。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="ZKL9dCVBdugknJEmJNUz-1" vertex="1">
+                    <mxGeometry x="5" width="295" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6UIhqK7wJwKFWqxiTaXy-0" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZKL9dCVBdugknJEmJNUz-1">
+                    <mxGeometry x="390" y="400" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6UIhqK7wJwKFWqxiTaXy-1" value="&lt;h1&gt;敵味方のポイント処理（追加出来たら）&lt;/h1&gt;&lt;p&gt;敵ごとにポイントを変えることは難しい&lt;/p&gt;&lt;p&gt;→既存の処理に対しもう一つ敵（ボス）を作成&lt;/p&gt;&lt;p&gt;→ボスに対しては複数攻撃すると倒せる&lt;/p&gt;&lt;p&gt;→ボスは移動が速いなどの追加処理を加える&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ZKL9dCVBdugknJEmJNUz-1">
+                    <mxGeometry x="10" y="320" width="460" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="6UIhqK7wJwKFWqxiTaXy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.038;entryY=-0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ZKL9dCVBdugknJEmJNUz-1" source="gilK_g97IdA7xEXjarIq-6" target="Lj0MUGp1D2PCZsePjITL-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6UIhqK7wJwKFWqxiTaXy-3" value="今までのスコアの初期化" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="ZKL9dCVBdugknJEmJNUz-1">
+                    <mxGeometry x="660" y="144" width="160" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="6UIhqK7wJwKFWqxiTaXy-4" value="my_class = 0を設定" style="text;strokeColor=#6F0000;fillColor=#a20025;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" vertex="1" parent="6UIhqK7wJwKFWqxiTaXy-3">
+                    <mxGeometry y="26" width="160" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="6UIhqK7wJwKFWqxiTaXy-5" value="リスタート時に呼び出す" style="text;strokeColor=#6F0000;fillColor=#a20025;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" vertex="1" parent="6UIhqK7wJwKFWqxiTaXy-3">
+                    <mxGeometry y="50" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="6UIhqK7wJwKFWqxiTaXy-6" value="返り値はなし！！" style="text;strokeColor=#6F0000;fillColor=#a20025;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" vertex="1" parent="6UIhqK7wJwKFWqxiTaXy-3">
+                    <mxGeometry y="76" width="160" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="6UIhqK7wJwKFWqxiTaXy-7" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;span style=&quot;background-color: rgb(204 , 0 , 0)&quot;&gt;def reset_score&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ZKL9dCVBdugknJEmJNUz-1">
+                    <mxGeometry x="640" y="100" width="140" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
+
