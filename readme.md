@@ -69,7 +69,7 @@ python main.py
  
 # How to use?
 敵の発射するレーザーを避けて、敵を攻撃しよう！<br>
-<span style="font-size: 200%;color: red; ">たくさん敵を倒して高スコアを目指せ！！</span>
+<span style="font-size: 200%;color: red; ">たくさん敵を倒して高スコアを目指せ！！</span><br>
 ![操作方法](./data/rule.png "rule")<br>
 移動→マウスドラッグ<br>
 球発射→マウス左ボタン<br>
